@@ -33,4 +33,4 @@ print("D2 = ", np.around(D2,3))
 print("D3 = ", np.around(D3,3))
 ```
 
-### MATLAB Code for Cylindrical Robotic Arm
+### MATLAB Code for Cylindrical Mechanical Manipulator
