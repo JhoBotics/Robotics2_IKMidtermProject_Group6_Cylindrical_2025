@@ -32,3 +32,5 @@ print("TH1 = ", np.around(TH1,3))
 print("D2 = ", np.around(D2,3))
 print("D3 = ", np.around(D3,3))
 ```
+
+### MATLAB Code for Cylindrical Robotic Arm
