@@ -2,7 +2,18 @@
 
 # CYLINDRICAL
 
-### 
+### Kinematic Diagram
+
+### Parametric Table
+
+### Homogeneos Transformation Matrices
+
+### Top View and Front View of Inverse Kinematics
+
+### Link Lengths
+a1 = 100
+a2 = 100
+a3 = 100
 
 ### Trial No. 1 (0%)
 
