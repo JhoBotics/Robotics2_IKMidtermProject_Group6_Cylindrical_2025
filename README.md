@@ -18,24 +18,49 @@ a2 = 100
 a3 = 100
 
 ### Trial No. 1 (0%)
+Forward Kinematics
 <p align="center">
 <img src="https://github.com/user-attachments/assets/f9970303-2a2b-4199-8e06-2673e76959f4" width=700 height=400>
+
+Inverse Kinematics
+<p align="center">
+<img src="https://github.com/user-attachments/assets/c4edae68-4c3a-4789-98bf-22e2591b46da" width=700 height=400>
   
 ### Trial No.2 (25%)
+Forward Kinematics
 <p align="center">
 <img src="https://github.com/user-attachments/assets/b75178d8-4a35-4067-a089-c74ff893c777" width=700 height=400>
 
+Inverse Kinematics
+<p align="center">
+<img src="https://github.com/user-attachments/assets/19b9c871-bedc-4b12-8932-1f41bfad825c" width=700 height=400>
+
 ### Trial No.3 (50%)
+Forward Kinematics
 <p align="center">
 <img src="https://github.com/user-attachments/assets/7bc0f485-315f-466f-8c46-9ba0a206d816" width=700 height=400>
+
+Inverse Kinematics
+<p align="center">
+<img src="https://github.com/user-attachments/assets/57ff7645-7d2f-4c08-831a-1b62a106c3fc" width=700 height=400>
   
 ### Trial No.4 (75%)
+Forward Kinematics
 <p align="center">
 <img src="https://github.com/user-attachments/assets/f7ee0502-3991-4672-a434-63e59185723e" width=700 height=400>
+
+Inverse Kinematics
+<p align="center">
+<img src="https://github.com/user-attachments/assets/88b7c0a7-73fd-4690-a6b6-77500abeca9a" width=700 height=400>
   
 ### Trial No.5 (100%)
+Forward Kinematics
 <p align="center">
 <img src="https://github.com/user-attachments/assets/92b97310-7b4f-4f97-90f1-6a59aeb77b0e" width=700 height=400>
+
+Inverse Kinematics
+<p align="center">
+<img src="https://github.com/user-attachments/assets/0fa5584c-a5f5-4560-9b53-e0c7606c4a20" width=700 height=400>
   
 ## Trial Values
 The group manually assigned values to the trial joint variable in MATLAB, ranging from 0% to 100%. These values were entered into the MATLAB simulation, which then automatically generated the corresponding trial position vector using forward kinematics (FK). This trial position vector was then input into a Python-based calculator developed by the group, which performed inverse kinematics (IK) to compute the actual joint variable. The resulting actual joint variable was recorded in the “Actual JV from Python” table. This value was then re-entered into the MATLAB simulation to obtain the actual position vector. Since both the forward and inverse kinematics produced matching results, the comparison confirms that FK = IK.
