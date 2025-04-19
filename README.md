@@ -27,8 +27,7 @@ Inverse Kinematics
 <img src="https://github.com/user-attachments/assets/c4edae68-4c3a-4789-98bf-22e2591b46da" width=700 height=400>
 
 <p align="center">
-  <a href="https://github.com/user-attachments/assets/2ff3b653-d276-4214-ba32-9bf29b4289a8">
-    <img src="assets/thumb.png" alt="Watch Video" width="500">
+https://github.com/user-attachments/assets/2ff3b653-d276-4214-ba32-9bf29b4289a8
   
 ### Trial No.2 (25%)
 Forward Kinematics
