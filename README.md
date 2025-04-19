@@ -26,7 +26,6 @@ Inverse Kinematics
 <p align="center">
 <img src="https://github.com/user-attachments/assets/c4edae68-4c3a-4789-98bf-22e2591b46da" width=700 height=400>
 
-<p align="center">
 https://github.com/user-attachments/assets/2ff3b653-d276-4214-ba32-9bf29b4289a8
   
 ### Trial No.2 (25%)
