@@ -1,5 +1,7 @@
 # Robotics2_IK_Group6_MIDTERM_2025
 
+# CYLINDRICAL
+
 ### Calculator Code in Python
 ```Python
 import numpy as np
