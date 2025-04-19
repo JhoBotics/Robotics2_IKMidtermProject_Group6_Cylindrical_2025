@@ -2,6 +2,8 @@
 
 # CYLINDRICAL
 
+![Image](https://github.com/user-attachments/assets/c8251607-d81b-44be-a397-5e77f4cd15c6)
+
 ### Calculator Code in Python
 ```Python
 import numpy as np
