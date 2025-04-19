@@ -145,3 +145,4 @@ Mid3.teach
 ```
 
 ## Conclusion
+This activity focused on analyzing the kinematics of a cylindrical mechanical manipulator using both forward and inverse kinematics. The manipulator, defined by three links of equal length, was modeled in MATLAB using Denavit-Hartenberg parameters and simulated through the Robotics Toolbox. Trial joint variables ranging from 0% to 100% were assigned manually and processed through forward kinematics to determine the end-effector's position. These position vectors were then input into a Python-based inverse kinematics calculator developed by the group to solve for the actual joint variables. Re-entering the inverse kinematics results into MATLAB reproduced the original end-effector positions, confirming that the forward and inverse kinematics are accurately implemented and produce consistent results.
