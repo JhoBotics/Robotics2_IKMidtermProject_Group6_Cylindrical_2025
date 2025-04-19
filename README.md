@@ -7,6 +7,16 @@ The group manually assigned values to the trial joint variable in MATLAB, rangin
 <p align="center">
 <img src="https://github.com/user-attachments/assets/c8251607-d81b-44be-a397-5e77f4cd15c6" width=700 height=900>
 
+### Trial No. 1 (0%)
+
+### Trial No.2 (25%)
+
+### Trial No.3 (50%)
+
+### Trial No.4 (75%)
+
+### Trial No.5 (100%)
+
 ### Calculator Code in Python
 ```Python
 import numpy as np
@@ -73,3 +83,4 @@ figure(1)
 Mid3.teach
 ```
 
+## Conclusion
