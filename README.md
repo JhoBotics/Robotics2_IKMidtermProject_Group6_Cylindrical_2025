@@ -1,11 +1,8 @@
 # Robotics2_IK_Group6_MIDTERM_2025
 
 # CYLINDRICAL
-## Trial Values
-The group manually assigned values to the trial joint variable in MATLAB, ranging from 0% to 100%. These values were entered into the MATLAB simulation, which then automatically generated the corresponding trial position vector using forward kinematics (FK). This trial position vector was then input into a Python-based calculator developed by the group, which performed inverse kinematics (IK) to compute the actual joint variable. The resulting actual joint variable was recorded in the “Actual JV from Python” table. This value was then re-entered into the MATLAB simulation to obtain the actual position vector. Since both the forward and inverse kinematics produced matching results, the comparison confirms that FK = IK.
 
-<p align="center">
-<img src="https://github.com/user-attachments/assets/c8251607-d81b-44be-a397-5e77f4cd15c6" width=700 height=900>
+### 
 
 ### Trial No. 1 (0%)
 
@@ -16,6 +13,12 @@ The group manually assigned values to the trial joint variable in MATLAB, rangin
 ### Trial No.4 (75%)
 
 ### Trial No.5 (100%)
+
+## Trial Values
+The group manually assigned values to the trial joint variable in MATLAB, ranging from 0% to 100%. These values were entered into the MATLAB simulation, which then automatically generated the corresponding trial position vector using forward kinematics (FK). This trial position vector was then input into a Python-based calculator developed by the group, which performed inverse kinematics (IK) to compute the actual joint variable. The resulting actual joint variable was recorded in the “Actual JV from Python” table. This value was then re-entered into the MATLAB simulation to obtain the actual position vector. Since both the forward and inverse kinematics produced matching results, the comparison confirms that FK = IK.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/c8251607-d81b-44be-a397-5e77f4cd15c6" width=700 height=900>
 
 ### Calculator Code in Python
 ```Python
