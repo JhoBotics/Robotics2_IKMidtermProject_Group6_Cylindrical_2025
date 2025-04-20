@@ -1,6 +1,6 @@
 # Robotics2_IK_Group6_MIDTERM_2025
 
-# CYLINDRICAL
+# CYLINDRICAL MECHANICAL MANIPULATOR
 
 ### Kinematic Diagram
 
