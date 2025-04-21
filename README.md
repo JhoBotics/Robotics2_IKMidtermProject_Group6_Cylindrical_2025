@@ -4,7 +4,8 @@
 
 ### Kinematic Diagram
 <p align="center">
-<img src="https://github.com/user-attachments/assets/65bc170a-c0d0-487e-9c28-03037b3f3e9a" width=700 height=400>
+<img src="https://github.com/user-attachments/assets/d5bd761e-35f8-43fc-9495-4c6ff4f07c99" width=700 height=400>
+
 
 ### Parametric Table
 
