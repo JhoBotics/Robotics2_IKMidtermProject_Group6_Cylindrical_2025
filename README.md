@@ -8,6 +8,12 @@
 
 
 ### Parametric Table
+<p align="center">
+<img src="https://github.com/user-attachments/assets/89b4affd-659f-4a7f-abc9-43973e312a93
+" width=400 height=600>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/53c4dc46-d5d4-4354-b3e1-d4365f735ae6
+" width=400 height=600>
 
 ### Homogeneos Transformation Matrices
 
