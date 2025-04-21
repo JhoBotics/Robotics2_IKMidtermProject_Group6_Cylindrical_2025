@@ -12,6 +12,8 @@
 ### Homogeneos Transformation Matrices
 
 ### Top View and Front View of Inverse Kinematics
+<p align="center">
+<img src="https://github.com/user-attachments/assets/4bb9715a-6ea0-4ee4-9047-033b3fbbeda6" width=400 height=600>
 
 ### Link Lengths
 a1 = 100
