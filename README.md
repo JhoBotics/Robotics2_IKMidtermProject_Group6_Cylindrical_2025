@@ -3,6 +3,8 @@
 ## CYLINDRICAL MECHANICAL MANIPULATOR
 
 ### Kinematic Diagram
+<p align="center">
+<img src="https://github.com/user-attachments/assets/65bc170a-c0d0-487e-9c28-03037b3f3e9a" width=700 height=400>
 
 ### Parametric Table
 
