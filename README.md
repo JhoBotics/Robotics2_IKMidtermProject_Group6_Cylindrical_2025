@@ -1,6 +1,13 @@
-# Robotics2_IK_Group6_MIDTERM_2025
+# Robotics2_IKMidtermProject_Group#_assignedmanipulator_2025
 
 ## CYLINDRICAL MECHANICAL MANIPULATOR
+
+### Instruction
+Read and comprehend the expected output for each task then perform them according to your group
+designation.
+
+### Objectives
+Perform Forward and Inverse Kinematics experimentation on (assigned mechanical manipulator).
 
 ### Kinematic Diagram
 <p align="center">
