@@ -1,4 +1,4 @@
-# Robotics2_IKMidtermProject_Group#_assignedmanipulator_2025
+# Robotics2_IKMidtermProject_Group6_Cylindrical_2025
 
 ## CYLINDRICAL MECHANICAL MANIPULATOR
 
