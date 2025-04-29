@@ -3,11 +3,19 @@
 ## CYLINDRICAL MECHANICAL MANIPULATOR
 
 ### Instruction
-Read and comprehend the expected output for each task then perform them according to your group
-designation.
+Introduction
+In this project for our Robotics 2 course, our team (Group 6) focused on studying a cylindrical robotic arm. A cylindrical robot has a unique structure that allows it to move in a circular path, extend forward and backward, and move up and down. These kinds of robots are commonly used in tasks like assembly lines, packaging, or material handling.
+
+The main aim of our project was to understand and apply the concepts of forward kinematics (figuring out where the robot's end reaches based on given angles and lengths) and inverse kinematics (figuring out what angles and lengths are needed to reach a certain point). To do this, we used programming tools and ran simulations to test how the robot behaves when moving to different target positions.
 
 ### Objectives
-Perform Forward and Inverse Kinematics experimentation on (assigned mechanical manipulator).
+1. To understand the basic structure and motion of a cylindrical robotic arm.
+
+2. To apply forward and inverse kinematics for controlling the robot's movement.
+
+3. To develop and test code that helps the robot reach specific target positions.
+
+4. Perform Forward and Inverse Kinematics experimentation on (assigned mechanical manipulator).
 
 ### Kinematic Diagram
 <p align="center">
