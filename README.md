@@ -177,3 +177,97 @@ Mid3.teach
 This activity focused on analyzing the kinematics of a cylindrical mechanical manipulator using both forward and inverse kinematics. The manipulator, defined by three links of equal length, was modeled in MATLAB using Denavit-Hartenberg parameters and simulated through the Robotics Toolbox. Trial joint variables ranging from 0% to 100% were assigned manually and processed through forward kinematics to determine the end-effector's position. These position vectors were then input into a Python-based inverse kinematics calculator developed by the group to solve for the actual joint variables. Re-entering the inverse kinematics results into MATLAB reproduced the original end-effector positions, confirming that the forward and inverse kinematics are accurately implemented and produce consistent results.
 
 This approach not only validated the computational models we used but also showed a solid grasp of the mathematical principles behind robotic motion. The successful back-and-forth verification between MATLAB and Python highlighted how well the two tools worked together in analyzing the system. The exercise also underscored how important it is to define parameters carefully using DH conventions and showed that our inverse kinematics algorithm is reliable. Overall, this activity helped strengthen both our theoretical understanding and hands-on skills, which are essential for designing and testing robotic manipulators in real-world settings.
+
+```
+#include <IRremote.h>
+int IRpin=11;
+IRrecv IR(IRpin);
+int t=1500;
+
+void setup() {
+  // put your setup code here, to run once:
+Serial.begin(9600);
+pinMode(IRpin,INPUT);
+IR.enableIRIn();
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+while(IR.decode())
+{
+ //Serial.println(IR.decodedIRData.decodedRawData,HEX);
+ if(IR.decodedIRData.decodedRawData == 0xE619FF00)
+ {
+  Serial.println(0);
+ }
+ if(IR.decodedIRData.decodedRawData == 0xB946FF00)
+ {
+  Serial.println(1);
+ }
+  if(IR.decodedIRData.decodedRawData == 0xB946FF00)
+ {
+  Serial.println(2);
+ }
+ if(IR.decodedIRData.decodedRawData == 0xB847FF00)
+ {
+  Serial.println(3);
+ }
+  if(IR.decodedIRData.decodedRawData == 0xBB44FF00)
+ {
+  Serial.println(4);
+ }
+ if(IR.decodedIRData.decodedRawData == 0xBF40FF00)
+ {
+  Serial.println(5);
+ }
+  if(IR.decodedIRData.decodedRawData == 0xBC43FF00)
+ {
+  Serial.println(6);
+ }
+ if(IR.decodedIRData.decodedRawData == 0xF807FF00)
+ {
+  Serial.println(7);
+ }
+ if(IR.decodedIRData.decodedRawData == 0xEA15FF00)
+ {
+  Serial.println(8);
+ }
+ if(IR.decodedIRData.decodedRawData == 0xF609FF00)
+ {
+  Serial.println(9);
+ }
+  if(IR.decodedIRData.decodedRawData == 0xE916FF00)
+ {
+  Serial.println("*");
+ }
+  if(IR.decodedIRData.decodedRawData == 0xF20DFF00)
+ {
+  Serial.println("#");
+ }
+  if(IR.decodedIRData.decodedRawData == 0xE718FF00)
+ {
+  Serial.println("up");
+ }
+  if(IR.decodedIRData.decodedRawData == 0xAD52FF00)
+ {
+  Serial.println("down");
+ }
+  if(IR.decodedIRData.decodedRawData == 0xA55AFF00)
+ {
+  Serial.println("Next");
+ }
+  if(IR.decodedIRData.decodedRawData == 0xF708FF00)
+ {
+  Serial.println("back");
+ }
+  if(IR.decodedIRData.decodedRawData == 0xE31CFF00)
+ {
+  Serial.println("ok");
+ }
+ delay(t);
+ IR.resume();
+}
+
+}
+
+```
